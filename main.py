@@ -43,7 +43,7 @@ def on_button(event):
 
 def get_dir_path(path:str):
     folder = f'{ospath.dirname(path)}\\'
-    print(folder)
+    # print(folder)
     return folder
 
 def zip_folder_switcher():
